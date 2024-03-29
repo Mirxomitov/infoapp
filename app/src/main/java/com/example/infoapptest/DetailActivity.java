@@ -13,7 +13,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DetailActivity extends AppCompatActivity {
-
     List<PlanetData> planets = new ArrayList<>();
 
     @SuppressLint("MissingInflatedId")
