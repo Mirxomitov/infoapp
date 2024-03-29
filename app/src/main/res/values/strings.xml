@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Info App Test</string>
+    <string name="app_name">Solar System</string>
     <string name="earth">Earth</string>
     <string name="mercury">Mercury</string>
     <string name="venus">Venus</string>

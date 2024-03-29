@@ -1,6 +1,9 @@
 package com.example.infoapptest;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.util.Log;
+import android.util.TypedValue;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -13,6 +16,7 @@ public class DetailActivity extends AppCompatActivity {
 
     List<PlanetData> planets = new ArrayList<>();
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +35,15 @@ public class DetailActivity extends AppCompatActivity {
 
         findViewById(R.id.detail_back).setOnClickListener(v -> {
             finish();
+        });
+
+        findViewById(R.id.changeSize).setOnClickListener(v -> {
+            float currentSize = description.getTextSize();
+            float newSize = currentSize + 2;
+            if (newSize >= 38) newSize = 18f;
+            Log.d("TTT", String.valueOf(newSize));
+
+            description.setTextSize(TypedValue.COMPLEX_UNIT_PX, newSize);
         });
     }
 

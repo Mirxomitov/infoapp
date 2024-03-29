@@ -30,8 +30,9 @@
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
                 android:text="@string/mercury"
-                android:textAllCaps="true"
-                android:textColor="@color/white" />
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -53,8 +54,9 @@
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
                 android:text="@string/venus"
-                android:textAllCaps="true"
-                android:textColor="@color/white" />
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -76,8 +78,9 @@
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
                 android:text="@string/earth"
-                android:textAllCaps="true"
-                android:textColor="@color/white" />
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -99,8 +102,9 @@
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
                 android:text="Mars"
-                android:textAllCaps="true"
-                android:textColor="@color/white" />
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -122,8 +126,9 @@
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
                 android:text="@string/jupiter"
-                android:textAllCaps="true"
-                android:textColor="@color/white" />
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -145,8 +150,9 @@
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
                 android:text="@string/saturn"
-                android:textAllCaps="true"
-                android:textColor="@color/white" />
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
 
 
         </androidx.appcompat.widget.LinearLayoutCompat>
@@ -169,8 +175,9 @@
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
                 android:text="@string/uranus"
-                android:textAllCaps="true"
-                android:textColor="@color/white" />
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -192,8 +199,9 @@
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
                 android:text="@string/neptune"
-                android:textAllCaps="true"
-                android:textColor="@color/white" />
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
